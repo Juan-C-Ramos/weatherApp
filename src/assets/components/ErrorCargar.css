@@ -1,0 +1,26 @@
+.errorUbicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(45, 45, 218);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+.contentError h1{
+    font-size: 150px;
+    font-weight: 500;
+    color: white;
+    text-decoration: inherit;
+}
+
+.contentError{
+    display: inline-block;
+    margin-left: 150px;
+}
+.contentError p{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-decoration: inherit;
+ }

@@ -1,0 +1,85 @@
+/*app*/
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  
+  /*weatherCard*/
+  .cardTittle{
+    text-align: center;
+  }
+  .weatherCard{
+    display: grid;
+    gap: 2px;
+    background-color: rgba(0, 73, 95, 0.603);
+    color: rgb(233, 233, 233);
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    animation-name: cardSpawn;
+    animation-duration: 2s;
+  }
+  .buttonTemp{
+    position: relative;
+    left: 48px;  
+    position: relative;
+    background-color: rgba(0, 73, 95, 0.603);
+    color: rgb(233, 233, 233);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonTemp:hover{
+    
+    cursor: pointer;
+    background-color: rgba(38, 145, 79, 0.418);
+    color: rgb(233, 233, 233);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+  }
+  .icono{
+    height: 60px;
+    width: 60px;
+  }
+  .weatherCard figure{
+    display: flex;
+    gap: 10px;
+  }
+  .nameIcon{
+    align-self: center;
+    justify-content: center;
+    
+  }
+  
+  
+  @keyframes cardSpawn{
+    0%{
+      position: absolute;
+      top:100%;
+      opacity: 0;
+    }
+    100%{
+      position: absolute;
+      top: 25%;
+      opacity: 1;
+    }
+  }

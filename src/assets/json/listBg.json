@@ -1,0 +1,11 @@
+{
+    "broken clouds": "04d",
+    "clear sky": "01d",
+    "few clouds": "02d",
+    "mist": "50d",
+    "rain": "10d",
+    "scattered clouds": "03d",
+    "snow": "13d",
+    "thunderstorm": "11d",
+    "shower rain": "09d"
+}
